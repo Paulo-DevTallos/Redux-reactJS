@@ -1,15 +1,9 @@
-import Login from "./components/Login";
-import Logout from "./components/Logout";
-import User from "./components/User";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div>
-      <Login />
-      <br />
-      <User />
-      <br />
-      <Logout />
+      <Navbar />
     </div>
   );
 }
